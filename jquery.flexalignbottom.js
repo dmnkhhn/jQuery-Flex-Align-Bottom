@@ -15,7 +15,7 @@
     var settings = $.extend({
       cssAttribute:   'margin-top', // the attribute to apply the calculated value to
       verticalOffset: 0,            // the number of pixels to offset the vertical alignment by
-      parentSelector: null          // a selector representing the parent to vertically center this element within
+      parentSelector: null          // a selector representing the parent to bottom align this element within
     }, options || {});
 
     return this.each(function(){
